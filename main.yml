@@ -4,4 +4,4 @@
     gather_facts: False
     tags: provisioning
     roles:
-      - aws
+      - awstest
