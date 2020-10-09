@@ -1,7 +1,7 @@
 - name: Provision an EC2 Instance. Detailed steps by Crunchify.
   hosts: local
-  connection: local
+  #connection: local
   gather_facts: False
-  tags: provisioning
+  #tags: provisioning
   roles:
       - awstest
