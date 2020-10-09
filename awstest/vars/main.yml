@@ -1,0 +1,8 @@
+---
+# vars file for awsroles
+- instance_type: t2.micro
+  security_group: harsha
+  image: ami-0e306788ff2473ccb
+  keypair: comp
+  region: ap-south-1
+  count: 1
