@@ -1,2 +1,9 @@
 ---
 # tasks file for awsroles
+- name: update OS
+  yum:
+   name: "*"
+   exclude:
+     - python2-html2text
+      - python2
+   state: latest
