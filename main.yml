@@ -1,7 +1,5 @@
-- name: Provision an EC2 Instance. Detailed steps by Crunchify.
-  hosts: 172.16.40.39
-  connection: local
-  gather_facts: False
-  #tags: provisioning
+- name: os upgrade
+  hosts: all
+  become: true
   roles:
       - awstest
